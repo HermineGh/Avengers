@@ -1,0 +1,27 @@
+create 2 arrays: heroes and villains
+fill those arrays with 10 characters(objects) with these properties:
+  name: somehow generate a random name,
+  speed: random number from 1 to 5, 1 means 5 seconds and 5 means the 1-second interval between each attack
+  health: equal to 100
+  power: random number from 1 to 10,
+
+
+villains and heroes will attack each other.
+
+
+all characters start to attack at the same time(first can start villains). Each character hits a random enemy on his turn and the enemy's health decreases by the amount of the character's power.
+When a character dies he/she are removed from the array.
+Every character makes his next attack after (1/speed * 5 ) seconds.
+
+
+Write a program to emulate the battle.
+Each Attack should be logged.
+example:
+Thor[90] hits Thanos[100]  with a power of 4.6
+Iron-Man dies
+
+
+At the end of the battle log which team won and stayed characters' health
+example:
+Heroes win
+[Black-Widow[10]  Spider-Man[20] Dr.Strange[5]]
